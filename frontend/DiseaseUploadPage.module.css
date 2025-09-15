@@ -1,0 +1,45 @@
+/* frontend/src/components/DiseaseUploadPage.module.css */
+.container {
+    padding: 40px;
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #007bff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .fileInput {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .uploadButton {
+    padding: 15px 30px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .uploadButton:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+  }

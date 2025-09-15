@@ -1,0 +1,86 @@
+/* src/components/DataGeneratorLayout.module.css */
+
+.container {
+    font-family: sans-serif;
+    background-color: #f0f8ff; /* Light blue background */
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #007bff; /* Blue header */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .searchBar {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+  }
+  
+  .navigation {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    overflow-x: auto; /* Horizontal scrolling for long lists */
+  }
+  
+  .navLink {
+    color: #007bff;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-right: 1px solid #ddd;
+  }
+  
+  .navLink:last-child {
+    border-right: none;
+  }
+  
+  .main {
+    flex: 1; /* Take up remaining space */
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #f0f8ff; /* Light blue footer */
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #ddd;
+  }
+  
+  .footerSection {
+    text-align: left;
+  }
+  
+  .footerSection h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .footerSection ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footerSection li {
+    margin-bottom: 5px;
+  }
+  
+  .footerSection a {
+    color: #333;
+    text-decoration: none;
+  }

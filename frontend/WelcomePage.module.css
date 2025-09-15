@@ -1,0 +1,57 @@
+/* frontend/src/components/WelcomePage.module.css */
+.welcomePage {
+  display: flex;
+  min-height: 100vh;
+}
+
+.leftContent {
+  flex: 70%; /* 70% of the width */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 50px;
+}
+
+.rightContent {
+  flex: 30%; /* 30% of the width */
+  background-color: #3678ba; /* Blue background */
+  color: white; /* White text color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 3.5em;
+  color: #3a92e9;
+  margin-bottom: 30px;
+}
+
+.getStartedButton {
+  display: inline-block;
+  padding: 18px 35px;
+  font-size: 1.4em;
+  background-color: white; /* White button */
+  color: #5590cb; /* Blue text */
+  text-decoration: none;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.getStartedButton:hover {
+  background-color: #f0f0f0; /* Light gray on hover */
+  transform: translateY(-3px);
+}
+
+.points {
+  list-style-type: disc;
+  padding-left: 25px;
+  font-size: 1.3em;
+  line-height: 1.6;
+}
+
+.points li {
+  margin-bottom: 15px;
+}
